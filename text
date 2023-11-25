@@ -1,3 +1,5 @@
 https://www.youtube.com/watch?v=PtQiiknWUcI&list=PLgSEhGuvPaAUROHVcT4tc1-qEWOX7Upd1&index=1&t=3431s&ab_channel=TraversyMedia
 
 1 hr 30 
+  git branch -M main
+  git push -u origin main
