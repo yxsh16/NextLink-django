@@ -11,13 +11,14 @@ class Topic(models.Model):
 
 
 class Room(models.Model):
-    host = models.ForeignKey(User, on_delete=models.SET_NULL, null = True) 
-    topic = models.ForeignKey(Topic, on_delete=models.SET_NULL, null = True) 
+    host = models.ForeignKey(User, on_delete=models.SET_NULL, null = True) # It implies that each room is associated with one user as its host, and a user can be the host of multiple rooms.
+    topic = models.ForeignKey(Topic, on_delete=models.SET_NULL, null = True) #  It implies that each room is associated with one topic, and a topic can be associated with multiple rooms.
     name = models.CharField(max_length = 200)
     description = models.TextField(null = True, blank = True)
     participants = models.ManyToManyField(User, related_name = 'participants', blank= True)
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add = True)
+    # ForeignKeys establish many-to-one relationship
     
     class Meta:
         ordering = ['-updated', '-created']
