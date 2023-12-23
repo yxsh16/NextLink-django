@@ -1,5 +1,5 @@
 """
-WSGI config for gamers_hub project.
+WSGI config for NextLink project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gamers_hub.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "NextLink.settings")
 
 application = get_wsgi_application()
