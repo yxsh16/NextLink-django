@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 
 :root {
-  --color-main: #f68080;         /* Soft Red */
-  --color-main-light: #ffa07a;    /* Light Salmon */
-  --color-dark: #2c3e50;          /* Charcoal */
-  --color-dark-medium: #34495e;   /* Medium Charcoal */
-  --color-dark-light: #718093;    /* Light Charcoal */
-  --color-light: #ecf0f1;         /* White Smoke */
-  --color-gray: #46ece6;          /* Steel Gray */
-  --color-light-gray: #ffffff;    /* Silver Gray */
-  --color-bg: #232a2c;            /* Dark Cyan */
-  --color-success: #2ecc71;       /* Emerald Green */
-  --color-error: #e74c3c;         /* Alizarin Red */
+  --color-main: #6B4D57;         /* Pastel Pink */
+  --color-main-light: #ffdab9;    /* Peach Puff */
+  --color-dark: #ffffff;          /* Light Blue */
+  --color-dark-medium: #896A67;   /* Powder Blue */
+  --color-dark-light: #6B4D57;    /* Alice Blue */
+  --color-light: #1d1327;         /* White Smoke */
+  --color-gray: #888887;          /* Light Cyan */
+  --color-light-gray: #000000;    /* White */
+  --color-bg: #DDC8C4;            /* Light Cyan Blue */
+  --color-success: #98fb98;       /* Pale Green */
+  --color-error: #ffb6c1;         /* Pastel Red */
 }
 
 /*========== base styles ==========*/
@@ -741,7 +741,7 @@ a {
   text-transform: uppercase;
   font-weight: 500;
   padding: 1rem 1.5rem;
-  color: var(--color-light);
+  color: var(--color-dark); 
   letter-spacing: 1px;
   font-size: 1.4rem;
 }
